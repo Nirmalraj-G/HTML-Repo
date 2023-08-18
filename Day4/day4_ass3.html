@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+	 <title>Grouping Table</title>
+	 <mata chatset="UTF-8"/>
+    </head>
+    <body>
+	  <fieldset><legend>Customer</legend>
+	  <form>
+	      <p>
+		  <lable>Name*</lable> <input type="text" required/>
+		</p>
+		<p>
+		  <lable>Email*</lable><input type="email" required/>
+		</p>
+		<p>
+		  <lable>Investment</lable>
+		  <select name="inv" id="inv">
+			<option> </option>
+			<option value="10,000">10,000</option>
+			<option valu="20,000">20,000</option>
+			<option value="30,000">30,000</option>
+		  </select>
+		</p>
+		<p>
+		  <lable>Date Joined*</lable>
+		  <input type="date" name="date" required/>
+		</p>
+	  </form>
+		<p>
+		 <lable for="at">Active</lable>
+		 <input type="checkbox" name="active[]" id="at"/>
+		</p>
+	  </fieldset>
+		<p>
+	       <button>ok</button>  <button>Cancel</button>
+		</p>
+    </body>
+</html>
